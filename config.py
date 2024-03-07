@@ -1,0 +1,2 @@
+TOKEN = "6735024113:AAFhtDmVJZzjw8OATFil5MRcZ4-achWifXM"
+payment = "1744374395:TEST:ea1f93dcad8d57c8e0c6"

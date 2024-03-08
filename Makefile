@@ -1,5 +1,5 @@
 install:
-        pip install aiogram && \
-        aiogram install
+        pip install poetry && \
+        poetry install
 start:
-        aiogram run python AlgorithmsEveryDay/main.py
+        poetry run python AlgorithmsEveryDay/main.py

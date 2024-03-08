@@ -3,7 +3,6 @@ name = "AlgorithmsEveryDay"
 version = "0.1.0"
 description = ""
 authors = ["MaxSpeedCuber <milosandfi@gmail.com>"]
-readme = "README.md"
 packages = [{include = ""}]
 
 [tool.poetry.dependencies]

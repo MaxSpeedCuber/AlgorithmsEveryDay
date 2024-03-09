@@ -15,4 +15,4 @@ class Database:
             return self.cursor.execute("UPDATE `users` SET `is_active` = ? WHERE `user_id` = ?", (is_active, user_id,))
     def get_users(self):
         with self.connection:
-            return self.cursor.execute("SELECT `user_id`, `active` FROM `users`").fetchall()
+            return self.cursor.execute("SELECT `user_id`, `is_active` FROM `users`").fetchall()

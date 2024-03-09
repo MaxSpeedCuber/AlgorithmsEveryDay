@@ -2,6 +2,7 @@
 name = "AlgorithmsEveryDay"
 version = "1.0.0"
 authors = ["MaxSpeedCuber <milosandfi@gmail.com>"]
+description = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11.0"
